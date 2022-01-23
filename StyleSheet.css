@@ -77,8 +77,8 @@
         grid-template-columns: auto auto;
     }
     iframe{
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
     }
 }
 @media (max-width: 576px){
@@ -104,8 +104,8 @@
         grid-template-columns: auto;
     }
     iframe{
-        width: 400px;
-        height: 300px;
+        width: 200px;
+        height: 150px;
     }
 }
 
