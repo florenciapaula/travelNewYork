@@ -32,6 +32,13 @@
 						 "Mail: " + mail + "\r" +
 						 "Tel: " + tel + "\r" +
 						 "Comentarios: " + comentarios);
-						 return (false);
+						 
+
+	document.getElementById('nombre').value="";
+	document.getElementById('mail').value="";
+	document.getElementById('tel').value="";
+	document.getElementById('subject').value="";
+	document.getElementById('comentarios').value="tu mensaje ha sido enviado";
+	return (false);
 	}
 }}
