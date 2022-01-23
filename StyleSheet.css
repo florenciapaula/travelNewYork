@@ -1,6 +1,13 @@
 /* HOJA DE ESTILO */
 
 @media (max-width: 1800px){
+    header{
+        width: 90%;
+        display: grid;
+        column-gap: 1px;
+        grid-template-columns: 10% 80%;
+        background-color: rgba(240, 248, 255, 0.5);
+    }  
     p{
         font-size: 24px;
     }
@@ -21,6 +28,13 @@
     }
 }
 @media (max-width: 1000px){
+    header{
+        width: 90%;
+        display: grid;
+        column-gap: 1px;
+        grid-template-columns: 20% 70%;
+        background-color: rgba(240, 248, 255, 0.5);
+    }  
     p{
         font-size: 20px;
     }
@@ -41,6 +55,13 @@
     }
 }
 @media (max-width: 850px){
+    header{
+        width: 90%;
+        display: grid;
+        column-gap: 1px;
+        grid-template-columns: 30% 50%;
+        background-color: rgba(240, 248, 255, 0.5);
+    }  
     p{
         font-size: 16px;
     }
@@ -61,6 +82,13 @@
     }
 }
 @media (max-width: 576px){
+    header{
+        width: 90%;
+        display: grid;
+        column-gap: 1px;
+        grid-template-columns: 40% 60%;
+        background-color: rgba(240, 248, 255, 0.5);
+    }  
     p{
         font-size: 12px;
     }
@@ -109,13 +137,7 @@ body{
 
 }
 
-header{
-    width: 90%;
-    display: grid;
-    column-gap: 1px;
-    grid-template-columns: 10% 80%;
-    background-color: rgba(240, 248, 255, 0.5);
-}  
+
 
 nav{
     width: 90%;
